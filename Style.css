@@ -13,10 +13,12 @@
     margin-bottom: 12px;
 }
 .searchInput{
-    width: 460px;
+    width: 350px;
     height: 25px;
-    margin-left: 208px;
+    margin-left: 250px;
     border-radius: 5px;
+    vertical-align: middle;
+    margin-top: -80px;
 }
 .btn{
     background-color: #7937CE;
@@ -25,4 +27,23 @@
     height: 30px;
     color: white;
     margin-left: 10px;
+    vertical-align: middle;
+    margin-top: -80px;
 }
+.Profile{
+    margin-left: 1365px;
+    vertical-align: middle;
+    margin-top: -125px;
+}
+
+.productsBlock{
+    margin-left: 55px;
+    display: inline-block;
+    color: #7937CE;
+    display: inline-block;
+    width: 20%;
+    height: 996px;
+    border-right: 5px solid #D3C3F4;
+}
+
+ 
