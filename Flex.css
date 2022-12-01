@@ -1,0 +1,10 @@
+.Container{
+    display: flex;
+}
+.productTitle{
+    width: 200px;
+    height: 200px;
+}
+.redBlock{
+    background-color: red;
+}

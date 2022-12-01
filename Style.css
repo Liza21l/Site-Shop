@@ -46,11 +46,17 @@
     
 }
 .productsBlock{
-    display: inline-block;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
     width: 70%;
     text-align: center;
 }
+.productItem:hover{
+    box-shadow: 0px 4px 5px 5px rgba(144, 44, 222, 0.25);
+}
 .titleProducts{
+    width: 100%;
     text-align: center;
     font-family: 'Courgette', cursive;
 }
@@ -85,8 +91,7 @@
     background-color: #7937CE;
     border-radius: 5px;
     font-size: 12px;
-
-    
+    border: none;
 }
 .ProductPrice{
     position: absolute;
@@ -98,4 +103,7 @@
 .productBasket{
     margin-left: 149px;
     margin-top: -15px;
+}
+main{
+    display: flex;
 }
